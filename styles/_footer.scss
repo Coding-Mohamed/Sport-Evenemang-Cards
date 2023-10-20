@@ -1,0 +1,67 @@
+
+footer {
+    background-color: $navbar-bg-color;
+    color: $navbar-link-color;
+    padding: 0px 0px 5px 0px;
+    text-align: left;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 20px;
+    text-align: left;
+
+  & h2 {
+    font-size: 24px;
+    margin: 10px;
+    padding-top: 10px;
+  }
+
+  & .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  & label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: monospace;
+
+  }
+
+  & input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid $navbar-link-color;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  & textarea {
+    resize: vertical;
+  }
+
+  & input[type="submit"] {
+    background-color: $navbar-link-color;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: monospace;
+  }
+
+  & input[type="submit"]:hover {
+    background-color: #305f90;
+    color: white;
+  }
+  }

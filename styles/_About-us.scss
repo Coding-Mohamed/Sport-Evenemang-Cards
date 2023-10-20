@@ -1,0 +1,76 @@
+
+.main{
+  min-height: 100vh;
+  background-color: $navbar-bg-color;
+  border-radius: 10px;
+  border-top: 0.2rem solid white;
+}
+.wrapper{
+  margin: 15px;
+
+  & img {
+    max-width: 320px; 
+  border: 3px solid $navbar-link-color;
+  border-radius: 10px;
+  margin-right:15px ;
+  margin-bottom: 20px;
+  }
+  & h3 {
+    font-family: fantasy;
+  font-size: 3rem;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  }
+& p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+}
+
+.text-box{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+
+& h4 {
+  font-family: fantasy;
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 2px;
+  margin: 5px;
+}
+
+& button{
+  background-color: $navbar-link-color;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+& button a{
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: fantasy;
+  letter-spacing: 0.3em;
+}
+
+}
+
+.ceo-info{
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+

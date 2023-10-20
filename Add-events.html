@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/mystyle.css" />
+    <title>Add Events</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About-us.html">About Us</a></li>
+          <li><a href="Add-events.html">Add Events</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="add-container">
+      <form action="" class="form-container">
+        <h1>Fyll in Formen</h1>
+        <p>
+          <span style="font-family: fantasy; font-size: 1.5rem"
+            ><strong>Hej</strong></span
+          >
+          och vällkommen, saknar du ett event på vår sida du tycker om ?
+          <br />Stressa inte använda formen för att enkelt lägga till. <br />
+          Skriv enkelt för att kunna förstå vad eventet handlar om, <br />
+          lägg även bilder på hur eventet kan se ut. <br />
+        </p>
+        <label for=""
+          >Name <input type="text" / placeholder="Enter name" required>
+        </label>
+        <label for="">
+          Email<input type="email" / placeholder="Enter email" required>
+        </label>
+        <label for="">Datum <input type="date" / required> </label>
+        <label for=""
+          >Kort Beskrivning
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="5"
+            placeholder="berätta om eventet"
+          ></textarea>
+        </label>
+        <fieldset class="image-upload">
+          <legend>lägg bilder</legend>
+          <input type="file" / required> <input type="file" /> <input
+          type="file" / required>
+        </fieldset>
+
+        <select name="cars" id="cars">
+          <option value="" selected disabled hidden>Kategori</option>
+          <option value="event 1">Event 1</option>
+          <option value="event 2">Event 2</option>
+          <option value="event 3">Event 3</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

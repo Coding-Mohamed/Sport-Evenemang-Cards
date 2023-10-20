@@ -1,0 +1,90 @@
+body {
+    background-color: $primary-bg-color;
+  
+& h1 {
+  text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+  }
+ 
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  & :hover {
+    background-color: $navbar-link-color;
+  }
+  }
+  
+  .event {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 2px solid brown;
+
+    & img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    & h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: large;
+    }
+
+    & p {
+    font-family: monospace;
+    }
+
+    & .font-style {
+    font-family: serif;
+    font-size: large;
+    }
+
+    & a {
+      text-decoration: none;
+    }
+
+    & button {
+      border-radius: 5px;
+      border: 2px solid black;
+      background-color: #2f82da;
+      cursor: pointer;
+      font-family: monospace;
+      font-size: small;
+      margin: 0;
+      padding: 3px;
+    }
+
+    & button:hover{
+    background-color: #305f90;
+    }
+
+    & button a {
+      text-decoration: none;
+      background-color: #2f82da;
+      color: black;
+    }
+
+    & button a:hover {
+      background-color: #305f90;
+    }
+
+    & button a:active{
+      color: $primary-bg-color;
+    }
+
+  }
+
+

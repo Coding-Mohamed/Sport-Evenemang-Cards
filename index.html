@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Allt om sport aktiviteter" />
+    <link rel="stylesheet" href="./styles/mystyle.css" />
+    <title>Sport Evenemang</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="About-us.html">About Us</a></li>
+          <li><a href="Add-events.html">Add Events</a></li>
+          <li><a href="more-info.html">More Info</a></li>
+          <li><a href="#fot">contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Välkommen till de största sportevenemangen</h1>
+    <div class="event-list">
+      <div class="event">
+        <img src="images/bike.jpg" alt="en man med cyckel" />
+        <h2>Cykel-<small>Tur</small></h2>
+        <p class="font-style">Följ med på en cykeltur genom skogen.</p>
+        <p>Datum: 10-NOV-2023</p>
+        <p>Kategori: Hälsa/Fitness</p>
+        <button><a href="more-info.html">Läs mer</a></button>
+      </div>
+      <div class="event">
+        <img src="images/gym.jpg" alt="en man som gymmar" />
+        <h2>Gym-<small>Träning</small></h2>
+        <p class="font-style">
+          Kom och träna med de bästa bodybuilders i spelet.
+        </p>
+        <p>Datum: 30-Okt-2023</p>
+        <p>Kategori: Hälsa/Fitness</p>
+        <button><a href="more-info.html">Läs mer</a></button>
+      </div>
+      <div class="event">
+        <img src="images/race.jpg" alt="löpning bana" />
+        <h2>Spring-<small>Tävling</small></h2>
+        <p class="font-style">
+          Begränsa inte dig själv och häng med oss på 500<strong>M</strong>
+          löpning.
+        </p>
+        <p>Datum: 30-Okt-2023</p>
+        <p>Kategori: Hälsa/Fitness</p>
+        <button><a href="more-info.html">Läs mer</a></button>
+      </div>
+      <div class="event">
+        <img src="images/yoga.jpg" alt="en kvinna som lär yoga" />
+        <h2>Yoga-<small>Klass</small></h2>
+        <p class="font-style">
+          Kom med oss till yogaklass med den bästa yoga instruktionen.
+        </p>
+        <p>Datum: 30-Nov-2023</p>
+        <p>Kategori: Hälsa/Fitness</p>
+        <button><a href="more-info.html">Läs mer</a></button>
+      </div>
+      <div class="event">
+        <img src="images/skying.jpg" alt="skidor åkning" />
+        <h2>Vinter-<small>aktiviter</small></h2>
+        <p class="font-style">
+          Vem sa att vintern <i>Inte</i> är roligt, <strong>låt</strong> oss
+          bevisa de fel.
+        </p>
+        <p>Datum: 25-Dec-2023</p>
+        <p>Kategori: Hälsa/Fitness</p>
+        <button><a href="more-info.html">Läs mer</a></button>
+      </div>
+      <div class="event">
+        <img src="images/swim.jpg" alt="simning hus" />
+        <h2>Inomhus-<small>Simning</small></h2>
+        <p class="font-style">
+          Ta med dig hela familjen på en rolig sim<i>fest</i>
+        </p>
+        <p>Datum: 29-Okt-2023</p>
+        <p>Kategori: Hälsa/Fitness</p>
+        <button><a href="more-info.html">Läs mer</a></button>
+      </div>
+    </div>
+    <footer>
+      <div class="contact-form" id="fot">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter Your Name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter Your Email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Write Us a Message"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
